@@ -43,14 +43,6 @@ While multi-task learning based automatic radiology report generation (RRG) is w
 
 
 
-## TODO
-Our complete codebase is released for anonymous review.
-
-- [x] [2026.1.29]: The training and inference code has been released.
-- [x] [2026.1.29]: The CAME-Grad optimizer implementation is available.
-- [x] The configuration and evaluation scripts are released.
-- [ ] Release pre-trained checkpoints (Upon acceptance).
-
 ## Getting Started
 
 ### 1. Install Environment
