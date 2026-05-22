@@ -5,8 +5,8 @@
 <p>
   Erjian Zhang<sup>1</sup> &nbsp;&nbsp;&nbsp;&nbsp; 
   Yatong Hao<sup>1</sup> &nbsp;&nbsp;&nbsp;&nbsp; 
-  <a href="https://it.xju.edu.cn/info/1155/3270.htm">Liejun Wang</a><sup>1, 2</sup> &nbsp;&nbsp;&nbsp;&nbsp; 
-  <a href="https://it.xju.edu.cn/info/1156/3109.htm">Zhiqing Guo</a><sup>1, 2</sup>
+  <a href="https://it.xju.edu.cn/info/1155/3270.htm">Liejun Wang</a><sup>1 2</sup> &nbsp;&nbsp;&nbsp;&nbsp; 
+  <a href="https://it.xju.edu.cn/info/1156/3109.htm">Zhiqing Guo</a><sup>1 2</sup>
 </p>
 
 <p>
@@ -16,7 +16,7 @@
 
 <p>
   <a href="https://arxiv.org/abs/2605.22635"><img src="https://img.shields.io/badge/arXiv-%3CPaper%3E-red" alt="Paper"></a>
-  <a href="https://github.com/vpsg-research/CAME-Grad"><img src="https://img.shields.io/badge/Project_Page-%3CWebsite%3E-blue" alt="Website"></a>
+  "<a href="https://github.com/vpsg-research/CAME-Grad"><img src="https://img.shields.io/badge/Project_Page-%3CWebsite%3E-blue" alt="Website"></a>"
 </p>
 
 <br>
