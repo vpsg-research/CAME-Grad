@@ -41,7 +41,15 @@
 
 While multi-task learning based automatic radiology report generation (RRG) is widely adopted to ensure clinical consistency, most focus on architectural designs yet remain limited to coarse linear scalarization strategies. These strategies cannot effectively balance the hard constraints of discriminative clinical supervision with the smoothness requirements of report generation. To address these problems, we analyze the failure mechanism of linear scalarization from the perspective of gradient dynamics, utilizing the stochastic differential equation (SDE) framework to characterize it as a "Double Dilemma" of drift term deviation and diffusion term decay. Based on this, we propose a backbone-agnostic optimizer named **C**onflict-**A**verse **M**agnitude-**E**nhanced **Grad**ient Descent (CAME-Grad). Through conflict-averse direction rectification and magnitude-enhanced energy injection, the algorithm not only ensures geometric validity, but also avoids local optimal solutions. Then, the adaptive gradient fusion mechanism is used to establish a dynamic balance between the theoretical optimal direction and the task-specific inductive bias. Experiments show that as a universal plug-and-play optimizer, CAME-Grad brings substantial and consistent improvements across eight diverse RRG methods, elevating overall clinical efficacy performance by an average of 2.3\% on MIMIC-CXR and 1.9\% on IU X-Ray.
 
+## 🚀 Introduction
 
+<p align="center">
+  <img src="figures/figure1.png" alt="The Double Dilemma in RRG multi-task optimization" width="90%">
+</p>
+
+- **The "Double Dilemma" in RRG multi-task optimization.** **(a)** In multi-task RRG, there is an intrinsic conflict between report generation and clinical constraints. **(b)** Under linear scalarization, this conflict simultaneously induces drift term deviation and diffusion term decay.
+
+- **Resolution via CAME-Grad.** **(c)** CAME-Grad employs direction rectification to ensure geometric validity and energy injection to escape sharp minima.
 
 ## Getting Started
 
