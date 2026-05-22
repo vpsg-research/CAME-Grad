@@ -27,18 +27,15 @@
 </div>
 
 
-
-
-
 ## 🎈 News
 
 - [2026.05] Our paper has been accepted by the **Forty-third International Conference on Machine Learning (ICML 2026)**! 🎉
 
 ## 📝 TODO
 
-- [x] Release the complete PyTorch code of CAME-Grad
-- [ ] Release the pre-trained checkpoints (Optional)
-- [ ] Provide detailed instructions for IU X-Ray and MIMIC-CXR datasets
+- [x] Provide detailed evaluation instructions and baseline reproduction setups for the IU X-Ray and MIMIC-CXR datasets.
+- [ ] Release the corresponding model weights.
+- [ ] Release the complete PyTorch codebase and algorithmic details of CAME-Grad. *(Due to ongoing follow-up research, the core optimizer source code is temporarily withheld. We will fully open-source it upon the completion of our subsequent work. Stay tuned!)*
 
 ## ⭐ Abstract
 
