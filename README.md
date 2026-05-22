@@ -16,7 +16,7 @@
 
 <p>
   <a href="https://arxiv.org/abs/2605.22635"><img src="https://img.shields.io/badge/arXiv-%3CPaper%3E-red" alt="Paper"></a>
-  "<a href="https://github.com/vpsg-research/CAME-Grad"><img src="https://img.shields.io/badge/Project_Page-%3CWebsite%3E-blue" alt="Website"></a>"
+  <!-- <a href="https://github.com/vpsg-research/CAME-Grad"><img src="https://img.shields.io/badge/Project_Page-%3CWebsite%3E-blue" alt="Website"></a> -->
 </p>
 
 <br>
