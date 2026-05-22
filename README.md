@@ -44,7 +44,7 @@ While multi-task learning based automatic radiology report generation (RRG) is w
 ## 🚀 Introduction
 
 <p align="center">
-  <img src="figures/figure1.png" alt="The Double Dilemma in RRG multi-task optimization" width="50%">
+  <img src="figures/figure1.png" alt="The Double Dilemma in RRG multi-task optimization" width="100%">
 </p>
 
 - The "Double Dilemma" in RRG multi-task optimization and its resolution via CAME-Grad. **(a)** In multi-task RRG, there is an intrinsic conflict between report generation and clinical constraints. **(b)** Under linear scalarization, this conflict simultaneously induces drift term deviation and diffusion term decay. **(c)** CAME-Grad employs direction rectification to ensure geometric validity and energy injection to escape sharp minima.
