@@ -57,7 +57,7 @@ The "Double Dilemma" in RRG multi-task optimization and its resolution via CAME-
 
 Architecture of the proposed CAME-Grad optimizer. (Top) The multi-task backbone integrates disease classification, image-text alignment, and retrieval enhancement as clinical constraints. (Bottom) The CAME-Grad optimizer operates via three stages. (S1) Direction rectification resolves drift deviation via geometric projection. (S2) Energy injection reverses diffusion decay by restoring and enhancing gradient magnitude. (S3) Adaptive fusion balances the theoretically optimal direction with task-specific inductive biases.
 
-## Getting Started
+## 💻 Getting Started
 
 ### 1. Install Environment
 
@@ -100,7 +100,7 @@ You can train the model using `main_train.py`. The **CAME-Grad** optimizer is en
 python main_train.py \
     --dataset_name mimic_cxr \
     --image_dir data/mimic_cxr/images/ \
-    --ann_path data/mimic_cxr/mimic_cxr_ddatr.json \
+    --ann_path data/mimic_cxr/mimic_cxr.json \
     --batch_size 16 \
     --save_dir results/mimic_cxr_came_grad \
     --cls_weight 4.0 \
@@ -116,7 +116,7 @@ python main_train.py \
 python main_train.py \
     --dataset_name mimic_cxr \
     --image_dir data/mimic_cxr/images/ \
-    --ann_path data/mimic_cxr/mimic_cxr_ddatr.json \
+    --ann_path data/mimic_cxr/mimic_cxr.json \
     --batch_size 16 \
     --save_dir results/mimic_cxr_baseline \
     --cls_weight 4.0
