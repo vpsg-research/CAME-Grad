@@ -3,10 +3,10 @@
 <h1>[ICML 2026] The Double Dilemma in Multi-Task Radiology Report Generation: A Gradient Dynamics Analysis and Solution</h1>
 
 <p>
-  <a href="#">Erjian Zhang</a><sup>1</sup> &nbsp;&nbsp;&nbsp;&nbsp; 
-  <a href="#">Yatong Hao</a><sup>1</sup> &nbsp;&nbsp;&nbsp;&nbsp; 
-  <a href="#">Liejun Wang</a><sup>1, 2</sup> &nbsp;&nbsp;&nbsp;&nbsp; 
-  <a href="#">Zhiqing Guo</a><sup>1, 2</sup>
+  Erjian Zhang<sup>1</sup> &nbsp;&nbsp;&nbsp;&nbsp; 
+  Yatong Hao<sup>1</sup> &nbsp;&nbsp;&nbsp;&nbsp; 
+  <a href="https://it.xju.edu.cn/info/1155/3270.htm">Liejun Wang</a><sup>1, 2</sup> &nbsp;&nbsp;&nbsp;&nbsp; 
+  <a href="https://it.xju.edu.cn/info/1156/3109.htm">Zhiqing Guo</a><sup>1, 2</sup>
 </p>
 
 <p>
@@ -15,7 +15,7 @@
 </p>
 
 <p>
-  <a href="#"><img src="https://arxiv.org/abs/2605.22635-%3CPaper%3E-red" alt="Paper"></a>
+  <a href="https://arxiv.org/abs/2605.22635"><img src="https://img.shields.io/badge/arXiv-%3CPaper%3E-red" alt="Paper"></a>
   <a href="https://github.com/vpsg-research/CAME-Grad"><img src="https://img.shields.io/badge/Project_Page-%3CWebsite%3E-blue" alt="Website"></a>
 </p>
 
