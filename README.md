@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1>[ICML 2026] The Double Dilemma in Multi-Task Radiology Report Generation: A Gradient Dynamics Analysis and Solution</h1>
+<h1>[ICML'26] The Double Dilemma in Multi-Task Radiology Report Generation: A Gradient Dynamics Analysis and Solution</h1>
 
 <p>
   Erjian Zhang<sup>1</sup> &nbsp;&nbsp;&nbsp;&nbsp; 
