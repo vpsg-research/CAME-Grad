@@ -29,7 +29,7 @@
 
 ## 🎈 News
 
-- [2026.05] Our paper has been accepted by the **Forty-third International Conference on Machine Learning (ICML 2026)**! 🎉
+- [2026.05] Our paper has been accepted by the **43rd International Conference on Machine Learning (ICML 2026)!** 🎉
 
 ## 📝 TODO
 
@@ -142,6 +142,18 @@ python main_test.py \
 
 Qualitative comparison on the MIMIC-CXR test set. The Ground Truth report is shown at the top. The generated results of REVTAF and CAME-Grad are shown on the left and right, respectively. Green text indicates accurate clinical observations consistent with the Ground Truth, while red text indicates factual errors or missed diagnoses. Various colored highlights and arrows (e.g., green, cyan, purple) illustrate the correspondence between visual attention regions and specific descriptions in the generated text.
 
-## License
+## ✒️ Citation
+
+If you find this repository helpful, please cite our paper:
+
+```bibtex
+@inproceedings{zhang2026double,
+  title={The Double Dilemma in Multi-Task Radiology Report Generation: A Gradient Dynamics Analysis and Solution},
+  author={Zhang, Erjian and Hao, Yatong and Wang, Liejun and Guo, Zhiqing},
+  booktitle={Proceedings of the 43rd International Conference on Machine Learning},
+  year={2026}
+}
+
+## 📜 License
 
 This project is licensed under the Apache-2.0 License.
