@@ -153,6 +153,7 @@ If you find this repository helpful, please cite our paper:
   booktitle={Proceedings of the 43rd International Conference on Machine Learning},
   year={2026}
 }
+```
 
 ## 📜 License
 
