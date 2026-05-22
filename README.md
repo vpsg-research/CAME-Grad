@@ -134,6 +134,13 @@ python main_test.py \
     --load_pretrained results/mimic_cxr_came_grad/model_best.pth \
     --batch_size 32
 ```
+## 🎨 Qualitative Results
+
+<p align="center">
+  <img src="figures/figure3.png" alt="Qualitative comparison on the MIMIC-CXR test set" width="100%">
+</p>
+
+Qualitative comparison on the MIMIC-CXR test set. The Ground Truth report is shown at the top. The generated results of REVTAF and CAME-Grad are shown on the left and right, respectively. Green text indicates accurate clinical observations consistent with the Ground Truth, while red text indicates factual errors or missed diagnoses. Various colored highlights and arrows (e.g., green, cyan, purple) illustrate the correspondence between visual attention regions and specific descriptions in the generated text.
 
 ## License
 
