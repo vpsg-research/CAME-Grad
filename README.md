@@ -25,7 +25,6 @@
 
 
 </div>
-
 ## 🎈 News
 
 - [2026.05] Our paper has been accepted by the **Forty-third International Conference on Machine Learning (ICML 2026)**! 🎉
