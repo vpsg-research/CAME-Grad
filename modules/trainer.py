@@ -53,7 +53,6 @@ class BaseTrainer(object):
         )
         #################
         
-        # [CAME-Grad 初始化逻辑]
         if hasattr(self.args, 'use_came_grad') and self.args.use_came_grad:
             if self.is_main_process:
                 print(f"Initializing CAME-Grad with rho={args.came_rho}, kappa={args.came_kappa}, nu={args.came_nu}")
@@ -144,24 +143,22 @@ class Trainer(BaseTrainer):
             has_progress = has_progress.to(self.device)
             self.lr_scheduler.step(cur_epoch=epoch, cur_step=batch_idx)
             
-            # 获取各任务损失
+        
             loss_lm, loss_cls = self.model(images, context_images, captions, cls_labels, context_cls_labels, context_ids, context_segids, context_attmasks, has_progress, self.criterion_cls, self.base_probs)
             
-            # 计算加权总损失（仅用于日志显示）
+            
             loss = loss_lm + self.args.cls_weight*loss_cls
             
             if batch_idx%10 == 0:
                 print("{}/{} loss: {}, loss_lm: {}, loss_cls: {}".format(batch_idx, len(self.train_dataloader), loss.item(), loss_lm.item(), self.args.cls_weight*loss_cls.item()))
             train_loss += loss.item()
             
-            # [修改：分支处理反向传播]
-            if hasattr(self.args, 'use_came_grad') and self.args.use_came_grad:
-                # CAME-Grad 模式：传入损失列表和权重列表，由优化器内部处理 backward 和 zero_grad
+            
+            if hasattr(self.args, 'use_came_grad') and self.args.use_came_grad: 
                 losses = [loss_lm, loss_cls]
                 task_weights = [1.0, self.args.cls_weight]
                 self.optimizer.step(losses, task_weights=task_weights)
             else:
-                # 原始模式：标量化反向传播
                 loss.backward()
                 torch.nn.utils.clip_grad_value_(self.model.parameters(), 0.1)
                 self.optimizer.step()
