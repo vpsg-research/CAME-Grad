@@ -50,7 +50,7 @@ def parse_agrs():
     parser.add_argument('--weight_decay', type=float, default=0.05, help='the weight decay.')
     parser.add_argument('--warmup_steps', type=int, default=2000, help='.')
     
-    # CAME-Grad 参数
+    # CAME-Grad
     parser.add_argument('--use_came_grad', action='store_true', help='Use CAME-Grad optimizer instead of linear scalarization')
     parser.add_argument('--came_rho', type=float, default=0.5, help='Conflict radius (rho) for CAME-Grad')
     parser.add_argument('--came_kappa', type=float, default=1.5, help='Magnitude gain (kappa) for CAME-Grad')
