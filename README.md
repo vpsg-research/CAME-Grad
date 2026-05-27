@@ -159,8 +159,8 @@ If you find this repository helpful, please cite our paper:
 
 This project is built upon several excellent open-source repositories. We would like to express our sincere gratitude to the authors of the following projects for their contributions to the community:
 
-- **Baseline Methods:** [WCL](https://github.com/zzxslp/WCL), [XProNet](#), [DCL](#), [PromptMRG](#), [CAMANet](#), [DDaTR](#), [TGRG](#), and [REVTAF](#).
-- **Optimization Framework:** [CAGrad](#).
+- **Baseline Methods:** [WCL](https://github.com/zzxslp/WCL), [XProNet](https://github.com/Markin-Wang/XProNet), [DCL](https://github.com/mlii0117/DCL), [PromptMRG](https://github.com/jhb86253817/PromptMRG), [CAMANet](https://github.com/Markin-Wang/CAMANet), [DDaTR](https://github.com/xmed-lab/DDaTR), [TGRG](https://github.com/chentaohuang/Topic-Guided-Radiology-Report-Generation), and [REVTAF](https://github.com/banbooliang/REVTAF-RRG).
+- **Optimization Framework:** [CAGrad](https://github.com/Cranial-XIX/CAGrad).
 
 ## 📜 License
 
