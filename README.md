@@ -130,7 +130,7 @@ To evaluate the trained model on the test set, run `main_test.py`:
 python main_test.py \
     --dataset_name mimic_cxr \
     --image_dir data/mimic_cxr/images/ \
-    --ann_path data/mimic_cxr/mimic_cxr_ddatr.json \
+    --ann_path data/mimic_cxr/mimic_cxr.json \
     --load_pretrained results/mimic_cxr_came_grad/model_best.pth \
     --batch_size 32
 ```
