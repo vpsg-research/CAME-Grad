@@ -155,6 +155,13 @@ If you find this repository helpful, please cite our paper:
 }
 ```
 
+## 👏 Acknowledgements
+
+This project is built upon several excellent open-source repositories. We would like to express our sincere gratitude to the authors of the following projects for their contributions to the community:
+
+- **Baseline Methods:** [WCL](https://github.com/zzxslp/WCL), [XProNet](#), [DCL](#), [PromptMRG](#), [CAMANet](#), [DDaTR](#), [TGRG](#), and [REVTAF](#).
+- **Optimization Framework:** [CAGrad](#).
+
 ## 📜 License
 
 This project is licensed under the Apache-2.0 License.
