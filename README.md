@@ -6,7 +6,7 @@
   Erjian Zhang<sup>1</sup> &nbsp;&nbsp;&nbsp;&nbsp; 
   Yatong Hao<sup>1</sup> &nbsp;&nbsp;&nbsp;&nbsp; 
   <a href="https://it.xju.edu.cn/info/1155/3270.htm">Liejun Wang</a><sup>1 2</sup> &nbsp;&nbsp;&nbsp;&nbsp; 
-  <a href="https://it.xju.edu.cn/info/1156/3109.htm">Zhiqing Guo</a><sup>1 2</sup>
+  <a href="https://www.guozhiqing.cn/">Zhiqing Guo</a><sup>1 2</sup>
 </p>
 
 <p>
